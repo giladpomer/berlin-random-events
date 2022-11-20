@@ -7,7 +7,7 @@ import SuggestedEventEntry from './SuggestedEventEntry';
 export default function SuggestedEventsList(props) {
     return (
         <div>
-            <h2>Suggested Events</h2>
+            <h2>Suggested Events on {props.daysOfWeekPreference.name}</h2>
 
             <Container>
                 <Row>

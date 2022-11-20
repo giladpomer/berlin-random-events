@@ -18,6 +18,10 @@
     margin: auto;
 }
 
-.col-lg {
+    .card.days-of-week-entry {
+        text-align: center;
+    }
+
+.col-lg, .col-md {
     padding: 1em;
 }
